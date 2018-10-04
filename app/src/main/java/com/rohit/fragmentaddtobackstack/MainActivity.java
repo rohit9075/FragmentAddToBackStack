@@ -161,6 +161,7 @@ public class MainActivity extends AppCompatActivity implements FragmentManager.O
 	@Override
 	public void onBackStackChanged() {
 
+		// getting the number of stack length in the stack
 		int length = manager.getBackStackEntryCount();
 
 		StringBuilder msg = new StringBuilder("");
